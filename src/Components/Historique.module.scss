@@ -1,0 +1,58 @@
+.historique {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: 700px;
+    margin-top: 70px;
+    width: 100%;
+
+}
+
+.historique_title {
+    margin-top: 10px;
+    display: flex;
+
+    /* Centrer les éléments sur la ligne */
+
+    /* Aligner les éléments verticalement */
+    font-size: 18px;
+    color: white;
+    width: 100%;
+    /* Assurez-vous que le conteneur prend toute la largeur disponible */
+    margin-bottom: 20px;
+}
+
+.historique_title span {
+    margin-right: 30px;
+    /* Ajoutez une marge à droite du premier mot */
+}
+
+.historique_table {
+    width: 100%;
+    /* Ajuster la largeur selon vos besoins */
+    margin-bottom: 20px;
+    /* Espacement au bas de la table */
+}
+
+table {
+    width: 100%;
+    margin-left: -100px;
+    margin-top: -60px;
+}
+
+th {
+
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    /* Couleur
+th {
+    background-color: #555; /* Couleur de fond des en-têtes de colonne */
+}

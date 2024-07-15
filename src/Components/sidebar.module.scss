@@ -1,0 +1,32 @@
+.contour {
+    display: flex;
+    /* Définis le container comme une boîte flex */
+    flex-direction: column;
+    /* Les éléments sont disposés verticalement */
+    align-items: flex-start;
+    /* Alignement horizontal au début du conteneur */
+    background-color: black;
+    min-height: 100vh;
+    width: 250px;
+    padding: 20px;
+
+}
+
+.item1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60%;
+    /* Ajoute un espacement en bas de chaque élément */
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    /* Ajoute un espacement en bas de chaque élément */
+}
+
+/* Supprime toutes les classes positionnelles car elles ne sont plus nécessaires */
+/* .posli1, .posli2, ..., .posli7 */
