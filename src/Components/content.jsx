@@ -35,7 +35,7 @@ function Content({ selectedTechnicianPosition }) {
     }, []);
 
     const fetchImages = (endpoint, setImage) => {
-        fetch(`http://192.168.1.4:5000/api/${endpoint}`)
+        fetch(`http://154.124.56.83:5000/api/${endpoint}`)
             .then(response => response.json())
             .then(data => setImage(data))
             .catch(error => console.error(`Error fetching ${endpoint}:`, error));
@@ -142,7 +142,7 @@ function Content({ selectedTechnicianPosition }) {
                     {imageName.map((name, index) => (
                         <div key={index} className="image-container">
                             <div className="image-name">{name}</div>
-                            <img src={`http://192.168.1.4:5000/upload_AvInt/${name}`} alt={name} />
+                            <img src={`http://154.124.56.83:5000/upload_AvInt/${name}`} alt={name} />
                         </div>
                     ))}
                 </div>
@@ -150,7 +150,7 @@ function Content({ selectedTechnicianPosition }) {
                     {imageName1.map((name, index) => (
                         <div key={index} className="image-container">
                             <div className="image-name">{name}</div>
-                            <img src={`http://192.168.1.4:5000/upload_ApInt/${name}`} alt={name} />
+                            <img src={`http://154.124.56.83:5000/upload_ApInt/${name}`} alt={name} />
                         </div>
                     ))}
                 </div>
